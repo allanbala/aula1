@@ -3,20 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Média do Aluno</title>
+    <title>Média do aluno</title>
 </head>
 <body>
-   <h1>Programa Situação do Aluno</h1>
-     <p>Nome do Aluno
-     <input tipe="text" id="inNome" required>
-     </p>
-     <p>1º Nota:
-        <input tipe="number" id="inNota1" required>
-     </p>
-
-     <p>2º Nota:
-        <input tipe="number" id="inNota2" required>
-     </p>
-
+    <h1>Programa Situação do Aluno</h1>
+    <p>Nome do Aluno:
+        <input type="text" id="inNome" required>
+    </p>
+    <p>1ª Nota:
+        <input type="number" id="inNota1" min="0" max="10" step="0.1" required>
+    </p>
+    <p>2ª Nota:
+        <input type="number" id="inNota2"  min="0" max="10" step="0.1" required>
+    </p>
 </body>
 </html>
